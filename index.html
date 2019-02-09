@@ -6,7 +6,41 @@
     <link rel="stylesheet" href="css/styles.css"
 </head>
 <body>
-<header id="header"></header>
-<h1>Awesom product</h1>
+<header id="header">
+    <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img" alt="logo">
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#how-it-works" class="nav-link">How it works</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+    </nav>
+</header>
+<main role="main">
+    <h1>Awesome product</h1>
+    <section id="form-section">
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" placeholder="example@example.com">
+            <input type="submit" id="submit" value="Send me updates!" >
+        </form>
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+    </section>
+    <section id="how-it-works">
+        <h2>How it works</h2>
+        <iframe id="video" type="text/html"
+                width="640"
+                height="360"
+                src="https://youtu.be/y8Yv4pnO7qc"
+                frameborder="0">
+        </iframe>
+    </section>
+    <section id="pricing">
+        <h2>Pricing</h2>
+    </section>
+</main>
+<footer></footer>
+<script type="application/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
