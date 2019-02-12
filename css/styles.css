@@ -4,6 +4,7 @@
     left: 0;
     height: 60px;
     display: inline-flex;
+    justify-content: space-around;
 }
 
 #header img {;
@@ -13,13 +14,27 @@
     object-fit: scale-down;
 }
 
+@media screen and (max-width: 500px) {
+    #header img {
+        width: 0;
+
+    }
+}
+
 #header ul {
     list-style: none;
+    padding-left: 0;
 }
 
 #header li {
     display: inline;
     margin-left: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    #header li {
+        margin-left: 0;
+    }
 }
 
 #header a {
